@@ -16,9 +16,10 @@ var nome = "Matheus"
 if(nome == "Matheus"){
     console.log("Meu nome é: ", nome);
 }
-
+//verifica a diferença
 if(nome != "Matheus"){
     console.log("Oo nome é outro");
 }
+
 
 
