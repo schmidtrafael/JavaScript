@@ -17,8 +17,10 @@ console.log(nome + " " + frase + " " + sobreNome);
 //escrevendo direto no HTML
 document.write('Eu disse "olá!"');
 
+//escrevendo no console
 console.log("Nome: " + nome);
 
+//escrevendo direto no HTML
 document.write('"Salve Salve Familia!"');
 
 
