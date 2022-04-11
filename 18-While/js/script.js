@@ -16,3 +16,11 @@ while (y<=3){
     console.log(arr[y]);
     y++;
 }
+
+var nome = "Rafael";
+var y=0;
+
+while (y<=5){
+    console.log(nome[y]);
+    y++;
+}
