@@ -1,12 +1,17 @@
-var verdadeiro = true;
+// Hoisting - içamento
 
-console.log(verdadeiro);
-console.log(typeof verdadeiro);
+/*Carrega as variaveis porem ainda nao 
+sabe o que foi atibuido pois isso executa no
+cabeçalho do codigo*/
 
-console.log(typeof true);
-console.log(typeof false);
+console.log(sobrenome);
 
-var falso = false;
+//aqui atribuimos o valor
+var sobrenome = "Schmidt";
+//agora vaaai!
+console.log(sobrenome);
 
-console.log(falso);
-console.log(typeof falso);
+
+var nome = null;
+
+console.log(nome)
