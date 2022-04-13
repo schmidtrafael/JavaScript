@@ -17,4 +17,8 @@ console.log(arr);
 
 console.log(typeof arr);
 
+//contador
+
+
+
 

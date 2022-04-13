@@ -1,4 +1,4 @@
-for (var i = 0; i < 10; i++){
+/*for (var i = 0; i < 10; i++){
     console.log("Repetindo for: "+ i)
 }
 
@@ -9,5 +9,13 @@ for(var j = 0; j < arr.length; j++){
 }
 
 for(var x = 50; x < 100; x *= 2){
+    console.log(x);
+}*/
+
+
+let num = prompt("Digite!");
+
+
+for (var x = 0; x < num; x++){
     console.log(x);
 }
