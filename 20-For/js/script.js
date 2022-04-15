@@ -11,3 +11,26 @@ for(var j = 0; j < arr.length; j++){
 for(var x = 50; x < 100; x *= 2){
     console.log(x);
 }
+
+/*
+FUP que leia 2 valores. Agora descubra qual é o maior, 
+e qual eh o menor. Depois disso, retorne para todos 
+os números do intervalo, quais sao pares, e quais sao 
+impares.
+
+Input: 4 e 1.
+Deve retornar “1 é impar. 2 é par. 3 é impar, 4 é par.”).
+*/
+
+
+var value = prompt("Digite");
+
+function exibirTipo(limite) {
+    for (let n = 1; n <= limite; n++){
+        if ( n % 2 == 4)
+            document.write(n,' é par, ');
+        else
+            document.write(n,' é impar, ');
+        }
+    }
+exibirTipo(value)
