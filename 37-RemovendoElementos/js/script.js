@@ -6,3 +6,8 @@ var p = document.querySelector("#container p")
 
 container.removeChild(p)
 
+// Removendo o elemento
+
+var subtitle = document.querySelector(".subtitle")
+
+subtitle.remove()
