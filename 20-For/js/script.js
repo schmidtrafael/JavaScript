@@ -27,7 +27,7 @@ var value = prompt("Digite");
 
 function exibirTipo(limite) {
     for (let n = 1; n <= limite; n++){
-        if ( n % 2 == 4)
+        if ( n % 2 == 0)
             document.write(n,' é par, ');
         else
             document.write(n,' é impar, ');
