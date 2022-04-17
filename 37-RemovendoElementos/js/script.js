@@ -1,14 +1,8 @@
-var novoParagrafo = document.createElement("p");
+//Removendo elemento filho
 
-var texto = document.createTextNode("Este é o conteudo inserido pelo JS no paragrafo!")
+var container = document.querySelector("#container")
 
-novoParagrafo.appendChild(texto);
+var p = document.querySelector("#container p")
 
-console.log(novoParagrafo);
-
-var body = document.querySelector("body");
-
-console.log(body);
-
-body.appendChild(novoParagrafo);
+container.removeChild(p)
 
