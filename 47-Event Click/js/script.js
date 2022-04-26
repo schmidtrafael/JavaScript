@@ -2,7 +2,6 @@
 
 var btn = document.querySelector("#btn");
 
-console.log(btn);
 
 btn.addEventListener("click", function(){
     console.log("Clicado");
@@ -10,3 +9,11 @@ btn.addEventListener("click", function(){
     this.style.color = "red";
 });
 
+// click afetando elementos
+var title = document.querySelector("#title");
+
+title.addEventListener("click", function(){
+    
+    var title = document.querySelector("#title")
+    title.style.display = "none";
+});
