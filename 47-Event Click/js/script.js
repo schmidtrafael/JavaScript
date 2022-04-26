@@ -1,13 +1,9 @@
-//evento
+//Click
 
-window.onload = function() {
+var btn = document.querySelector("#btn");
 
-    console.log("Carrega o DOM");
+console.log(btn);
 
-    var title = document.querySelector("#title");
-
-    console.log(title);
-
-}
-
-console.log("teste")
+btn.addEventListener("click", function(){
+    
+})
