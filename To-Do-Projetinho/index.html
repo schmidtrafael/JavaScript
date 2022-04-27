@@ -9,7 +9,40 @@
 </head>
 <body>
     
-    <h1>Testando</h1>
+
+    <div class="taks-container">
+        <div id="tasks-header">
+            <h2>Anote sua proxima tarefa:</h2>
+            <form action="" id="add-task-form">
+                <input type="text" id="task-tilte" placeholder="Tarefas para fazer!">
+                <button id="add-btn" type="submit">
+                <ion-icon name="add-outline"></ion-icon>
+                </button>
+            </form>
+        </div>
+    </div>
+    <div id="task-list-container">
+        <h2>Tarefas anotadas/Para fazer:</h2>
+        <ul id="task-list">
+            <li class="task-box">
+                <span class="task-title">Teste0</span>
+                <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+                <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+            </li>
+            <li class="task-box">
+                <span class="task-title">Teste1</span>
+                <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+                <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+            </li>
+            <li class="task-box">
+                <span class="task-title">Teste2</span>
+                <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+                <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+            </li>
+        </ul>
+    </div>
+
+
 
     <script src="js/script.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
