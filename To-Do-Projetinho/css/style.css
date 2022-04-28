@@ -61,3 +61,58 @@ body {
 ion-icon {
     font-size: 30px;
 }
+
+/* Tasks list */
+
+#task-list-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#task-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#task-list li {
+    text-align: left;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    border-bottom: 3px solid #34073D;
+    background-color: #FFF;
+    color: #34073D;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    transition: .5s;
+    font-weight: bold;
+}
+
+#task-list ion-icon {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    transition: .5s;
+    cursor: pointer;
+    width: 30px;
+    padding: 5px;
+}
+
+.done-btn {
+    right: 40px;
+}
+
+.done-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: #3cff15;
+}
+
+.remove-btn {
+    right: 0;
+}
+
+.remove-btn {
+    color: #FFF;
+    background-color: #f32d2d;
+}
