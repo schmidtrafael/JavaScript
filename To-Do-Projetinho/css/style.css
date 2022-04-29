@@ -112,7 +112,13 @@ ion-icon {
     right: 0;
 }
 
-.remove-btn {
+.remove-btn:hover {
     color: #FFF;
     background-color: #f32d2d;
+}
+
+#task-list li.done {
+    background-color: #34073D;
+    color: #FFF;
+    text-decoration: line-through;
 }
