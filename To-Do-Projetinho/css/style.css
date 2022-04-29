@@ -122,3 +122,7 @@ ion-icon {
     color: #FFF;
     text-decoration: line-through;
 }
+
+.hide {
+    display: none;
+}
