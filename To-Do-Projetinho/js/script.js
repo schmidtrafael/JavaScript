@@ -8,7 +8,6 @@ function addTask() {
 
         // Clona template
         const template = document.querySelector(".template");
-
         const newTask = template.cloneNode(true);
 
         // adiciona titulo
@@ -28,8 +27,6 @@ function addTask() {
     }
 }
 
-
-
 // Evento adicionando tarefas
 const addBtn = document.querySelector("#add-btn");
 
@@ -38,5 +35,4 @@ addBtn.addEventListener("click", function(e) {
     e.preventDefault();
 
     addTask();
-
 });
