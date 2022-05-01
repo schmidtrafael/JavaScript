@@ -19,7 +19,6 @@ function addTask() {
 
         //Adiciona tarefa na lista
         const list = document.querySelector("#task-list");
-
         list.appendChild(newTask);
 
         // Limpar texto
