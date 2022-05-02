@@ -28,14 +28,12 @@ function addTask() {
         const removebtn = newTask.querySelector(".remove-btn").addEventListener("click", function() {
             
             removeTask(this);
-
         });
 
         // Adicionar evento de completar tarefa
         const doneBtn = newTask.querySelector(".done-btn").addEventListener("click", function() {
 
             completeTask(this);
-
         });
 
         // Limpar texto
@@ -47,8 +45,16 @@ function addTask() {
 function removeTask(task) {
 
     task.parentNode.remove(true);
-
 };
+
+//  Função de completar tarefa
+function completeTask(task) {
+
+    const taskToComplete = task.parentNode;
+
+    taskToComplete.classList.toggle("done");
+
+}
 
 
 // Evento adicionando tarefas
