@@ -1,9 +1,10 @@
 // Função que adiciona tarefa
 function addTask() {
 
-    //Titulo da tarefa
+    //Titulo da tarefa onde define um valor na entrada
     const taskTitle = document.querySelector("#task-title").value;
 
+    //Aqui se tiver valor entra no if, caso vazio nem vai pra frente
     if (taskTitle) {
 
         // Clona template
