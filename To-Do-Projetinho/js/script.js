@@ -26,7 +26,16 @@ function addTask() {
 
         // Adicionar evento de remover
         const removebtn = newTask.querySelector(".remove-btn").addEventListener("click", function() {
+            
             removeTask(this);
+
+        });
+
+        // Adicionar evento de completar tarefa
+        const doneBtn = newTask.querySelector(".done-btn").addEventListener("click", function() {
+
+            completeTask(this);
+
         });
 
         // Limpar texto
