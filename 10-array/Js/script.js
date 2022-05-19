@@ -1,4 +1,4 @@
-var arr = [5, "Rafael", true, {teste, teste:2}];
+var arr = [5, "Rafael", true, {teste1, teste1:2}];
 
 console.log(arr);
 
@@ -16,8 +16,6 @@ arr[0] = "teste";
 console.log(arr);
 
 console.log(typeof arr);
-
-//contador
 
 
 
