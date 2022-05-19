@@ -12,12 +12,12 @@ if(idade <= 17){
 
 
 //Se igual a...
-var nome = "Matheus"
-if(nome == "Matheus"){
+var nome = "Rafael"
+if(nome == "Rafael"){
     console.log("Meu nome é: ", nome);
 }
 //verifica a diferença
-if(nome != "Matheus"){
+if(nome != "Rafael"){
     console.log("Oo nome é outro");
 }
 
