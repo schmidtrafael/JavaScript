@@ -1,4 +1,5 @@
 var idade = 18;
+
 //maioor que
 if(idade >= 18){
     console.log("Maior de 18");
@@ -20,6 +21,4 @@ if(nome == "Rafael"){
 if(nome != "Rafael"){
     console.log("Oo nome é outro");
 }
-
-
 
