@@ -42,3 +42,7 @@ for (var x = 0; x < num; x++){
     console.log(x);
 }
 
+let number = 5;
+for(let i=15; i>=number; i--) {
+    console.log(i);
+}
